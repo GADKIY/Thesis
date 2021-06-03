@@ -1,4 +1,5 @@
 @import 'reset';
+@import 'variables';
 
 .container{
     width: 90%;
@@ -44,8 +45,12 @@
            margin-bottom: 18px; 
         }
         a{
-            font-size: 15px;
-            color: rgba(255, 245, 245, .65);
+            width: 100%;
+            height: 100%;
+            display: block;
+            cursor: pointer;
+            font-size: rem(15px);
+            color: rgba($font-color-white, $alpha: .65);
         }
     }
     &-info_wrap{
@@ -53,7 +58,7 @@
         max-width: 1166px;
         background-color: #fff;
         border-radius: 60px;
-        padding: 36px 87px 30px 64px;
+        padding: 36px 87px 31px 65px;
     }
     &-control_panel{
         text-align: end;

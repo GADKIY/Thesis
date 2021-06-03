@@ -70,7 +70,11 @@ img {
   margin-bottom: 18px;
 }
 .main_screen-control-item a {
-  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+  font-size: 0.9375rem;
   color: rgba(255, 245, 245, 0.65);
 }
 .main_screen-info_wrap {
@@ -78,7 +82,9 @@ img {
   max-width: 1166px;
   background-color: #fff;
   border-radius: 60px;
-  padding: 36px 87px 0 0;
+  padding: 36px 87px 31px 65px;
+}
+.main_screen-control_panel {
   text-align: end;
 }
 .main_screen-control_panel span {
