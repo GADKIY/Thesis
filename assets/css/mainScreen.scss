@@ -1,10 +1,15 @@
 @import 'reset';
 @import 'variables';
 
+
 .container{
     width: 90%;
     max-width: 1273px;
     margin: 0 auto;
+}
+
+.title{
+    font-size: rem(48px);
 }
 
 .main_screen{
@@ -14,8 +19,6 @@
     background: -moz-linear-gradient(90deg, rgba(229, 229, 229, 1) 7%, rgba(101, 189, 192, 1) 7%, rgba(229, 229, 229, 1) 80%);
     background: -webkit-linear-gradient(90deg, rgba(229, 229, 229, 1) 7%, rgba(101, 189, 192, 1) 7%, rgba(229, 229, 229, 1) 80%);
     background: linear-gradient(90deg, rgba(229, 229, 229, 1) 7%, rgba(101, 189, 192, 1) 7%, rgba(229, 229, 229, 1) 80%);
-    
-
     &-control_bar{
         background-color: #65BDC0;
         width: 90%;
