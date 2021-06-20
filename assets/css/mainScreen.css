@@ -36,11 +36,13 @@ img {
 
 .title {
   font-size: 3rem;
+  letter-spacing: 1px;
 }
 
 .main_screen {
   width: 100%;
   display: flex;
+  max-height: 905px;
   background: #e5e5e5;
   background: -moz-linear-gradient(90deg, #e5e5e5 7%, #65bdc0 7%, #e5e5e5 80%);
   background: -webkit-linear-gradient(90deg, #e5e5e5 7%, #65bdc0 7%, #e5e5e5 80%);

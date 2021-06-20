@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Lack";
+  background-color: #e5e5e5;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+
+.utility_billing {
+  width: 100%;
+}
+.utility_billing_title {
+  margin-bottom: 18px;
+}
+.utility_billing-title {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+.utility_billing-invoice_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.utility_billing-invoice_list-item {
+  margin-bottom: 51px;
+}
+.utility_billing-invoice_list-item:last-child {
+  margin-bottom: 0;
+}
+.utility_billing-invoice_list-item.history {
+  width: calc(67.75%);
+  max-width: 687px;
+}
+.utility_billing-invoice_list-item.current {
+  width: calc(28.10%);
+}
+.utility_billing-invoice_list-item.chart {
+  width: calc(100%);
+}
+.utility_billing-invoice_screen {
+  background: #FFF5F5;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.14);
+  border-radius: 30px;
+  width: 100%;
+  max-height: 291px;
+}
+.utility_billing-invoice_screen.chart_screen {
+  height: 258px;
+}
+.utility_billing-payment_card {
+  padding: 25px 19px 25px 25px;
+}
+.utility_billing-payment_card.top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+  padding-bottom: 0;
+}
+.utility_billing-payment_card.bottom {
+  padding-top: 19px;
+  text-align: center;
+}
+.utility_billing-payment_card-inner {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 19px;
+}
+.utility_billing-payment_card-inner span:first-child {
+  color: rgba(29, 35, 67, 0.51);
+}
+.utility_billing-payment_card-tax, .utility_billing-payment_card-total {
+  text-align: end;
+  margin-bottom: 10px;
+}
+.utility_billing-payment_card-tax span:first-child, .utility_billing-payment_card-total span:first-child {
+  color: rgba(29, 35, 67, 0.51);
+  margin-right: 29px;
+}
+.utility_billing-payment_card-total {
+  margin-bottom: 25px;
+}
+.utility_billing-payment_card button {
+  width: 104px;
+  height: 35px;
+  border: none;
+  border-radius: 21px;
+  color: #FFF5F5;
+  background-color: #EE777F;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  outline: none;
+}
+.utility_billing-payment_card button:hover {
+  background-color: #65BDC0;
+}
+.utility_billing-payment_card button:focus {
+  background-color: #65BDC0;
+}
+.utility_billing .title_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.utility_billing .markers_list-item {
+  display: inline-block;
+  margin-right: 30px;
+}
+.utility_billing .markers_list-item .marker_circle {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 13px;
+}
+.utility_billing .markers_list-item .marker_circle.red {
+  background-color: #EE777F;
+}
+.utility_billing .markers_list-item .marker_circle.blue {
+  background-color: #1d2343;
+}
+.utility_billing .markers_list-item .marker_circle.green {
+  background-color: #65BDC0;
+}
+.utility_billing .markers_list-item .marker_description {
+  font-size: 1.1875rem;
+  line-height: 22px;
+  vertical-align: top;
+  color: #c2c2c2;
+}
+
+table {
+  width: 100%;
+  border-radius: 30px;
+  text-align: center;
+  padding: 0 41px 0 33px;
+  border-collapse: collapse;
+}
+table th {
+  color: rgba(29, 35, 67, 0.47);
+  font-size: 0.8125rem;
+  padding: 14px 0 14px;
+}
+table td {
+  font-size: 0.8125rem;
+  line-height: 28px;
+  padding-bottom: 23px;
+  color: rgba(29, 35, 67, 0.71);
+}
+table td.status span {
+  width: 71px;
+  height: 24px;
+  border-radius: 16px;
+  display: inline-block;
+  line-height: 24px;
+}
+table td.status span.unpaid {
+  background-color: rgba(238, 119, 127, 0.46);
+}
+table td.status span.paid {
+  background-color: rgba(101, 189, 192, 0.51);
+}
